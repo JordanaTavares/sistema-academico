@@ -18,13 +18,16 @@ O repositório está organizado em duas pastas principais:
 
 **Módulo 1** (lancamentoNotas.js): Permite que o professor registre as notas dos alunos.
 
+
 **Módulo 2** (calcularMedia.js): Responsável pelo cálculo da média das notas registradas.
+
 
 **Módulo 3** (exibirStatus.js): Avalia o status de aprovação do aluno com base na média calculada.
 
+
 **test:** Armazena os arquivos de teste correspondentes a cada módulo do sistema.
 
-## Testes:
+Arquivos do test:
 
 **lancamentoNotas.test.js**
 
