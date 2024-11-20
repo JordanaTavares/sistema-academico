@@ -5,59 +5,79 @@ e Revisão de Código (Code Review). Além disso, visa promover o uso de metodol
 fomentar a colaboração entre equipes, criando um ambiente similar ao encontrado em projetos reais de software.
 
 ## Tecnologias Utilizadas
+
 Node.js: Plataforma para executar JavaScript no lado do servidor (backend).
+
 Jest: Ferramenta para a criação e execução de testes automatizados.
 
 ## Estrutura do Projeto
 O repositório está organizado em duas pastas principais:
 
-src: Contém os componentes do sistema, cada um responsável por uma funcionalidade específica.
-Módulo 1 (lancamentoNotas.js): Permite que o professor registre as notas dos alunos.
-Módulo 2 (calcularMedia.js): Responsável pelo cálculo da média das notas registradas.
-Módulo 3 (exibirStatus.js): Avalia o status de aprovação do aluno com base na média calculada.
+**src:** Contém os componentes do sistema, cada um responsável por uma funcionalidade específica.
 
-test: Armazena os arquivos de teste correspondentes a cada módulo do sistema.
-lancamentoNotas.test.js
-calcularMedia.test.js
-exibirStatus.test.js
+
+**Módulo 1** (lancamentoNotas.js): Permite que o professor registre as notas dos alunos.
+
+
+**Módulo 2** (calcularMedia.js): Responsável pelo cálculo da média das notas registradas.
+
+
+**Módulo 3** (exibirStatus.js): Avalia o status de aprovação do aluno com base na média calculada.
+
+
+**test:** Armazena os arquivos de teste correspondentes a cada módulo do sistema.
+
+Arquivos do test:
+
+**lancamentoNotas.test.js**
+
+**calcularMedia.test.js**
+
+**exibirStatus.test.js**
 
 Os módulos fazem uso de module.exports e require para integrar suas funcionalidades.
 
 ## Como Executar os Testes
-Pré-requisitos
-Node.js: Certifique-se de que o Node.js está instalado em seu computador. Caso necessário, faça o download em nodejs.org.
+Pré-requisitos:
+
+**Node.js:** Certifique-se de que o Node.js está instalado em seu computador. Caso necessário, faça o download em nodejs.org.
 
 ## Passo a Passo
 
-Clone este repositório:
+### Clone este repositório:
+
+
 git clone <url-do-repositório> 
 
-Acesse o diretório do projeto:
+### Acesse o diretório do projeto:
+
 cd <caminho-para-diretório>  
 
-Instale as dependências:
+### Instale as dependências:
+
+
 npm install  
 
-Execute os testes utilizando o terminal de depuração do JavaScript:
+### Execute os testes utilizando o terminal de depuração do JavaScript:
+
 npm test  
 
 Os resultados dos 18 testes configurados serão exibidos no terminal, indicando o status de cada um deles.
 
-Exemplo de saída dos testes:
+## Exemplo de saída dos testes:
 
-PASS  tests/lancamentoNotas.test.js  
-PASS  tests/calcularMedia.test.js  
-PASS  tests/exibirStatus.test.js  
+PASS  tests/lancamentoNotas.test.js   
+
+PASS  tests/calcularMedia.test.js 
+
+PASS  tests/exibirStatus.test.js 
+
 ------------------------------  
-Test Suites: 3 passed, 3 total  
-Tests:       18 passed, 18 total  
+**Test Suites: 3 passed, 3 total**  
+**Tests:       18 passed, 18 total**
 ```
 
 ## Developers
 
-- [Jordana Tavares](https://github.com/JordanaTavares) 
+-- Jordana Tavares (https://github.com/JordanaTavares) 
 
-
-
-"# sistema-academico" 
-"# sistema-academico" 
