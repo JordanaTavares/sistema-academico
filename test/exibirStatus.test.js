@@ -1,3 +1,4 @@
+// Arquivo de teste do módulo 3,  exibir o status do aluno
 const obterStatus = require('../src/exibirStatus');
 
 describe('Testes para obterStatus com base na média do aluno', () => {

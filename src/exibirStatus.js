@@ -1,3 +1,4 @@
+// Módulo 3, status do aluno
 function obterStatus(media) {
     if (media < 4.0) {
       return "Reprovado por média";

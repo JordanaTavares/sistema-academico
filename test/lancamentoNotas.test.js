@@ -1,3 +1,4 @@
+// Arquivo de teste para o módulo 1, lançamento de notas
 const { lancarNota } = require("../src/lancamentoNotas");
 
 describe("Teste de lançamento de notas", () => {

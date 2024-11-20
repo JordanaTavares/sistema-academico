@@ -1,3 +1,4 @@
+// módulo 1, lançamento de notas do aluno
 function lancarNota(nota1, nota2) {
     if (typeof nota1 !== "number" || typeof nota2 !== "number") {
       throw new Error("Entradas devem ser numéricas");

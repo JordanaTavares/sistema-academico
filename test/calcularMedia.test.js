@@ -1,3 +1,5 @@
+//arquivo de teste para o módulo 2, calcular a média
+
 const { calcularMedia } = require("../src/calcularMedia");
 
 describe("Teste de cálculo de média", () => {
