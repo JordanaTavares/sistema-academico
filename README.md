@@ -5,18 +5,24 @@ e Revisão de Código (Code Review). Além disso, visa promover o uso de metodol
 fomentar a colaboração entre equipes, criando um ambiente similar ao encontrado em projetos reais de software.
 
 ## Tecnologias Utilizadas
+
 Node.js: Plataforma para executar JavaScript no lado do servidor (backend).
+
 Jest: Ferramenta para a criação e execução de testes automatizados.
 
 ## Estrutura do Projeto
 O repositório está organizado em duas pastas principais:
 
 src: Contém os componentes do sistema, cada um responsável por uma funcionalidade específica.
+
 Módulo 1 (lancamentoNotas.js): Permite que o professor registre as notas dos alunos.
+
 Módulo 2 (calcularMedia.js): Responsável pelo cálculo da média das notas registradas.
+
 Módulo 3 (exibirStatus.js): Avalia o status de aprovação do aluno com base na média calculada.
 
 test: Armazena os arquivos de teste correspondentes a cada módulo do sistema.
+
 lancamentoNotas.test.js
 calcularMedia.test.js
 exibirStatus.test.js
